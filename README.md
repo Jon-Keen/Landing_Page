@@ -7,3 +7,9 @@ Greetings!
     2. Add div's, classes, aria, html semantic, mobile compliance?
     3. Build style.css - Complete general framework, add broad items such as background colors, text colors, images.
     4. Style pt.2 - Complete detailed flexbox css styling.
+
+
+
+Shoutouts:
+Boy photo by <a href="https://unsplash.com/@benwhitephotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ben White</a> on <a href="https://unsplash.com/s/photos/logo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
