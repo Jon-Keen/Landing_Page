@@ -1,8 +1,53 @@
-.logo {
-    width: 400px;
-    height: 150px;
+body {
+    background-color: #2c2c2c;
+    min-height: 100vh;
+}
+.body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-header {
+    background-color: #1F2937;
+    display: flex;
+    flex: 2 1 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30rem;
+}
+.header {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-top: 2rem;
+}
+ul {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.div-head-two {
+    background-color: #1F2937;
+}
+#head-two {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 .head-three-img {
     width: 150px;
     height: 150px;
+}
+
+
+
+
+
+.footer {
+    background-color: #1F2937;
 }
