@@ -13,6 +13,13 @@ Greetings!
 
 
 Shoutouts:
-Boy photo by <a href="https://unsplash.com/@benwhitephotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ben White</a> on <a href="https://unsplash.com/s/photos/logo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-Mountain photo by <a href="https://unsplash.com/es/@kalenemsley?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kalen Emsley</a> on <a href="https://unsplash.com/s/photos/mountain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@lamaroscu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lama Roscu</a> on <a href="https://unsplash.com/s/photos/icecream?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+<br>
+Photo by <a href="https://unsplash.com/@ikredenets?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Irene Kredenets</a> on <a href="https://unsplash.com/s/photos/ice-cream?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+<br>
+Photo by <a href="https://unsplash.com/@thissillygirlskitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dana DeVolk</a> on <a href="https://unsplash.com/s/photos/ice-cream?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+<br>
+Photo by <a href="https://unsplash.com/es/@dovilerm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dovile Ramoskaite</a> on <a href="https://unsplash.com/s/photos/ice-cream?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+<br>
+Photo by <a href="https://unsplash.com/@skysay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anna Bratiychuk</a> on <a href="https://unsplash.com/s/photos/ice-cream?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
