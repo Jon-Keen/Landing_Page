@@ -31,6 +31,11 @@ a,a:hover,a:active,a:visited,a:link {
     text-decoration: none;
 }
 
+button {
+    background-color: #3882F6;
+    
+}
+
 li {
     font-size: 18px;
     color: #e5e7eb;
