@@ -1,64 +1,90 @@
-* {
+/* {
     box-sizing: border-box;
-}
+} */
 body {
     font-family: Roboto, sans-serif;
     background-color: rgb(44, 44, 44);
-    margin: auto 15%;
+    margin: 0 10%;
+    width: 80vw;
+    height: 200vh;
 }
 
 header {
     color: rgb(249, 250, 248);
     font-size: 2vw;
     background-color: rgb(31, 41, 55);
-    padding: 1rem;
+    padding: 1em;
     margin: 0;
-    height: 20%;
+    height: 1em;
     display: flex;
     justify-content: space-around;
     gap: 20%;
 }
 
 main {
-    height: 200vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    flex: auto;
 }
 
 .s1 {
     background-color: rgb(31, 41, 55);
-    height: 30%;
+    height: 20em;
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 10%;
-    padding: 1rem;
+    padding: 5rem;
 }
 
 .s2 {
     background-color: rgb(255, 255, 255);
-    height: 30%;
-    align-items: center;
-    padding: 10%;
+    height: 20em;
     display: flex;
-    flex-flow: row;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    gap: 1em;
 }
 
 .quote {
     background-color: rgb(229, 231, 235);
-    height: 30%;
+    height: 20em;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5em;
 }
 
 .signup {
     background-color: rgb(255, 255, 255);
-    height: 30%;
+    height: 20em;
     display: flex;
     flex-flow: row wrap;
+    padding: 5em;
+    justify-content: center;
+    align-items: center;
 }
 
+footer {
+    height: 2em;
+    font-size: 1rem;
+    background-color: rgb(31, 41, 55);
+    padding: 1rem;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.s2 img {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
 nav {
     padding: 0;
     margin: 0;
@@ -77,8 +103,11 @@ ul {
 
 button {
     background-color: rgb(56, 130, 246);
+    color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 10%;
     height: 2rem;
-    width: auto;
+    width: 5rem;
 }
 
 li {
@@ -86,23 +115,24 @@ li {
     flex-flow: row;
     align-items: flex-start;
     justify-content: space-between;
-    font-size: 1vw;
+    font-size: 1rem;
     color: rgb(229, 231, 235);
 }
 
 p {
-    font-size: 1vw;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
 }
 
 .i1 {
-    height: 40%;
-    width: 50%;
+    display: flex;
+    height: 10em;
+    width: 40em;
 }
 
 .i2 {
-    width: 100%;
-    height: 80%;
-    display: flex;
+    width: 12em;
+    height: 12em;
     border-style: solid;
     border-width: .3em;
     border-radius: 10%;
@@ -110,7 +140,7 @@ p {
 }
 
 #l1 {
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     font-weight: 900;
     color: rgb(249, 250, 248);
 }
@@ -118,23 +148,19 @@ p {
 #l2  {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #l3 {
     font-weight: 300;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     font-style: italic;
     color: #1F2937;
 }
 
-footer {
-    background-color: rgb(31, 41, 55);
-    padding: 1rem;
-    margin: 0;
-    color: rgb(255, 255, 255);
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+.p-txt, #l2{
+    color: rgb(0, 0, 0);
 }
 
 a{
