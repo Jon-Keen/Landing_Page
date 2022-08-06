@@ -6,51 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Odin Project Landing Page project">
     <link rel="stylesheet" media="all" href="./style.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto Flex' rel='stylesheet'>
     <title>I SCREAM</title>
 </head>
-<!--
-link = l
-image = i
-section = s
--->
+
 <body>
-        <header>I SCREAM    <!-- header starts here -->
+        <header>    <!-- header starts here -->
             <nav>    <!-- navigation links start here -->
+                <img class="nav-logo" src="./img/mask.jpg" alt="scream">
                 <ul>
-                    <li><a href="#l1">Who is I SCREAM</a></li>
-                    <li><a href="#l2">What is I SCREAM</a></li>
-                    <li><a href="#l3">I SCREAM testimony</a></li>
+                    <li><a href="#s1-link">Who is I SCREAM</a></li>
+                    <li><a href="#s2-link">What is I SCREAM</a></li>
+                    <li><a href="#s3-link">I SCREAM testimony</a></li>
                 </ul>
             </nav>  <!-- end of navigation -->
         </header>   <!-- header ends here -->
 
     <main>
-        <section class="s1">    <!-- section 1 start (s1) -->
-            <p id="l1">Flavor Danger.</p> 
-            <img class="i1" src="./img/ice-variety.jpg" alt="variety ice cream" max-width="400px">
-            <p>In need of flavor? How about flavor(s)? SCREAM your favorite flavors today! </p>
-            <button class="b1">Sign up</button>
+        <section class="s1" id="s1-link">    <!-- section 1 start (s1) -->
+            <div class="s1-text-container">
+                <p>Flavor Danger.</p> 
+                <p>In need of flavor? How about flavor(s)? SCREAM your favorite flavors today! </p>
+                <button class="b1">Sign up</button>
+            </div>
+            <img class="s1-img" src="./img/ice-variety.jpg" alt="variety ice cream">
         </section>  <!-- section 1 end -->
 
-        <section class="s2">    <!-- section 2 start -->
-            <p id="l2">All the flavors. All the fun. SCREAM for your cream!</p>     <!-- link 2 -->
-                <div class="s2.img">
-                    <img class="i2" src="./img/ice1.jpg" alt="chocolate ice cream" max-width="400px">
-                    <img class="i2" src="./img/ice2.jpg" alt="caramel ice cream" max-width="400px">
-                    <img class="i2" src="./img/ice3.jpg" alt="vanilla ice cream" max-width="400px">
-                    <img class="i2" src="./img/ice4.jpg" alt="chocolate drizzle" max-width="400px">
+        <section class="s2" id="s2-link">    <!-- section 2 start (s2) & s2-link -->
+            <p class="s2-text">All the flavors. All the fun. SCREAM till you CREAM!</p>
+            <div class="s2-img-main">
+                <div class="s2-img-container">
+                    <img class="s2-img" src="./img/ice1.jpg" alt="chocolate ice cream">
+                    <p class="s2-img-text">Chocolate?</p>
                 </div>
-                <div class="s2.text">
-                    <p>Chocolate?</p>
-                    <p>Caramel drizzle?</p>
-                    <p>Vanilla?</p>
-                    <p>Chocolate drizzle?</p>
+                <div class="s2-img-container">
+                    <img class="s2-img" src="./img/ice2.jpg" alt="caramel ice cream">
+                    <p class="s2-img-text">Caramel drizzle?</p>
                 </div>
+                <div class="s2-img-container">
+                    <img class="s2-img" src="./img/ice3.jpg" alt="vanilla ice cream">
+                    <p class="s2-img-text">Vanilla?</p>
+                </div>
+                <div class="s2-img-container">
+                    <img class="s2-img" src="./img/ice4.jpg" alt="chocolate drizzle">
+                    <p class="s2-img-text">Chocolate drizzle?</p>
+                </div>
+            </div>
         </section>  <!-- section 2 end -->
 
-        <section class="quote"> <!-- quote start -->
-        <p id="l3">don't forget cite</p> 
+        <section class="quote" id="s3-link"> <!-- quote start -->
+        <p>don't forget cite</p> 
         </section>  <!-- quote end -->
 
         <section class="signup">    <!-- signup start -->
