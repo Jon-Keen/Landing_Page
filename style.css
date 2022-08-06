@@ -99,13 +99,13 @@ button {
     justify-content: center;
     align-items: center;
     padding: 5%;
-    gap: 1%;
+    gap: 5%;
 }
 
 .s2-img-main {
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
 }
 
@@ -122,8 +122,8 @@ button {
 }
 
 .s2-img {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 100%;
+    max-height: 100%;
     border-style: solid;
     border-width: .3em;
     border-radius: 10%;
