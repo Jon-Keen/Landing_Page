@@ -43,7 +43,7 @@ main {
     background-color: rgb(255, 255, 255);
     height: 20em;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     padding: 5em;
@@ -80,11 +80,19 @@ footer {
     justify-content: center;
     flex-direction: row;
 }
-.s2 img {
+
+.s2.img {
     display: flex;
-    flex-flow: row wrap;
-    
+    flex-flow: row nowrap;
 }
+
+.s2.text {
+    color: rgb(0, 0, 0);
+    font-size: 1rem; 
+    display: flex;
+    flex-flow: row nowrap;
+}
+
 nav {
     padding: 0;
     margin: 0;
@@ -117,11 +125,6 @@ li {
     justify-content: space-between;
     font-size: 1rem;
     color: rgb(229, 231, 235);
-}
-
-p {
-    color: rgb(255, 255, 255);
-    font-size: 1rem;
 }
 
 .i1 {
