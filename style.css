@@ -1,72 +1,76 @@
+/*************
+*** GLOBAL ***
+*************/
 @import url('https://fonts.googleapis.com/css?family=Roboto Flex');
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto Flex", sans-serif;
     background-color: rgb(0, 0, 0);
-    margin: 0 10%;
-    width: 80%;
-    height: 100vw;
+    margin: 0 5%;
+    max-width: 100vw;
     display: flex;
-    flex-direction: column;
-    flex: 0 1;
+    flex-flow: column wrap;
+    flex-auto;
 }
 
+/*************
+*** HEADER ***
+*************/
+
 header {
-    color: rgb(249, 250, 248);
-    font-size: 2vw;
     background-color: rgb(31, 41, 55);
     padding: 2%;
     margin: 0;
-}
-
-main {
     display: flex;
-    flex-direction: column;
-    flex: 0 1;
-    max-height: fit-content;
-    max-width: 100%;
 }
 
 nav {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding-left: 9%;
     gap: 30%;
+    flex: auto;
 }
 
 .nav-logo {
-    max-width: 15%;
+    max-width: 20%;
+    max-height: inherit;
     border-style: solid;
     border-radius: 15%;
+    display: flex;
 }
 
 ul {
-    padding: 0;
     margin: 0;
     list-style-type: none;
     display: flex;
-    flex-flow: row;
-    gap: 10%;
-    width: 100%;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    flex: auto;
 }
 
 li {
     font-size: 1rem;
     color: rgb(229, 231, 235);
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
+    flex: auto;
+    justify-content: flex-end;
 }
 
 button {
     background-color: rgb(56, 130, 246);
     color: rgb(255, 255, 255);
     border-style: solid;
-    border-radius: 10%;
-    height: 50%;
-    width: 20%;
+    border-radius: 15%;
+    height: 4rem;
+    width: 6rem;
 }
+
+/*main {
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    max-width: 100%;
+}*/
 
 .s1 {
     background-color: rgb(31, 41, 55);
@@ -84,9 +88,16 @@ button {
     display: flex;
     flex-flow: column wrap;
 }
+
+.s1-img-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
 .s1-img {
     display: flex;
-    width: 30%;
+    max-width: 40vw;
     border-style: solid;
     border-radius: 15%;
     border-color: rgb(255, 255, 255);
@@ -99,19 +110,21 @@ button {
     justify-content: center;
     align-items: center;
     padding: 5%;
-    gap: 5%;
+}
+
+.s2-text {
+    text-align: center;
 }
 
 .s2-img-main {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
-    width: 100%;
 }
 
 .s2-img-container {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 }
@@ -122,21 +135,16 @@ button {
 }
 
 .s2-img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 15rem;
     border-style: solid;
     border-width: .3em;
     border-radius: 10%;
     border-color: rgb(56, 130, 246);
-    display: flex;
-    flex: 1 1;
 }
 
 .quote {
     background-color: rgb(229, 231, 235);
-    height: vw;
     display: flex;
-    flex: 0 1;
     justify-content: center;
     align-items: center;
     padding: 5%;
@@ -150,7 +158,6 @@ button {
     background-color: rgb(255, 255, 255);
     height: 20vw;
     display: flex;
-    flex: 0 1;
     flex-flow: row wrap;
     padding: 5%;
     justify-content: center;
