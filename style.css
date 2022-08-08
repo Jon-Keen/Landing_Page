@@ -151,7 +151,7 @@ button {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 3rem 8rem;
 }
 
 .quote-text-1 {
